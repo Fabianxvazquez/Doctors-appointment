@@ -1,2 +1,7 @@
 <h1>Appointments#index</h1>
 <p>Find me in app/views/appointments/index.html.erb</p>
+<h1><%="Dr. #{@doctor.name} Appointments"%></h1>
+<%= link_to 'Add Appointment', new_doctor_appointment_path(@doctor) %>
+<hr />
+
+
